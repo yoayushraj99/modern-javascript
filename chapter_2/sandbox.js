@@ -26,8 +26,9 @@ let name = 'shaun';
 console.log(name == 'shaun');
 console.log(name == 'Shaun');
 console.log(name > 'crystal');
-console.log(name > 'Shaun');
-console.log(name > 'Crystal');
+// lowercase letters are greater than uppercase letter in terms of string comparision.
+console.log(name > 'Shaun');//true
+console.log(name > 'Crystal');//true
 
 
 
