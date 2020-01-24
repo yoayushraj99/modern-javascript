@@ -12,6 +12,7 @@ let pi = 3.14;
 // let result = pi * radius**2;
 
 // order of operation - B I D M A S
+//here I is indices(**)
 
 // let result = 5 * (10 - 3)**2;
 
