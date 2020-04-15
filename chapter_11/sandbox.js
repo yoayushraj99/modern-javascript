@@ -12,9 +12,9 @@ console.log('getHours:', now.getHours());
 console.log('getMinutes:', now.getMinutes());
 console.log('getSeconds:', now.getSeconds());
 
-// timestamps :- A timestamp is the current time of an event that is recorded by a computer. 
-//Through mechanisms such as the Network Time Protocol ( NTP ),
-//a computer maintains accurate current time, calibrated to miliseconds in javascript.
+// timestamps :- '1st January 1970' usually called as "epoch date" is the date when the time started for Unix computers,
+//and that timestamp is marked as '0'.
+//Any time since that date is calculated based on the number of seconds elapsed.
 console.log('timestamp:', now.getTime());
 
 // date strings
