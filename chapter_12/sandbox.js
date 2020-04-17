@@ -1,3 +1,8 @@
+//The Promise object represents the eventual completion (or failure) of an asynchronous operation, and its resulting value.
+//Essentially, a promise is a returned object to which you attach callbacks, instead of passing callbacks into a function.
+/*A common need is to execute two or more asynchronous operations back to back, where each subsequent operation starts when 
+the previous operation succeeds, with the result from the previous step. We accomplish this by creating a promise chain.*/
+/*  */
 const getTodos = (resource) => {
 
   return new Promise((resolve, reject) => {
